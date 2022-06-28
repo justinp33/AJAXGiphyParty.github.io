@@ -31,5 +31,5 @@ function addGif(res) {
   }
 
   $("#remove").on("click", function() {
-    $gifArea.empty();
+    $gifContainer.empty();
   });
